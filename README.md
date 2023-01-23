@@ -417,4 +417,4 @@
 
 ### terraform state file (object) in s3
 
-![Alt text](./photos/terraform-state-file-in-s3.png?raw=true "Title")
+![Alt text](./photos/state-file-in-s3.png?raw=true "Title")
