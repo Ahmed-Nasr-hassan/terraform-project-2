@@ -1,0 +1,12 @@
+server {
+        listen 80 default_server;
+        listen [::]:80 default_server;
+        server_name _;
+        location / {
+                proxy_pass http://3.239.122.39;
+        }
+}
+
+sudo mv default /etc/nginx/sites-enabled/default
+sudo systemctl stop nginx 
+sudo systemctl start nginx
