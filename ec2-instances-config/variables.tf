@@ -17,7 +17,7 @@ variable "is_public" {
 
 variable "instance_type" {
   type = string
-  default = "t2.large"
+  default = "t2.2xlarge"
 }
 
 variable "allow_all_ipv4_cidr_blocks" {
